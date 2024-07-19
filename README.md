@@ -42,7 +42,7 @@ This project is licensed under the [MIT](https://opensource.org/licenses/MIT)  L
 
 ### Mock-Up
 
-![Note Taker](image.png)
+![Note Taker](./assets/image.png)
 ---
 
 Feel free to contribute to our project or reach out if you have any questions!
