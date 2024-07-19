@@ -35,9 +35,9 @@ notes.post('/', (req, res) => {
 // This API route is a DELETE route to delete a note
 notes.delete('/:id', (req, res) => {
     const noteId = req.params.id;
-  
+
     readFromFile('./db/db.json')
-      .then((data) => res.jsonJSON.parse(data))
+      .then((data) => JSON.parse(data))
       .then((json) => {
         // Make a new array of all notes except the one with the ID provided in the URL
         const result = json.filter((note) => note.id !== noteId);
